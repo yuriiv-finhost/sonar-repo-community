@@ -6,4 +6,4 @@ function greet(name: string): string {
 const userInput = "console.log('This is unsafe!')";
 eval(userInput); // SonarQube will flag this as a security risk
 
-console.log(greet("World"));
+console.log(greet("World ABC"));
